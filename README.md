@@ -72,3 +72,15 @@ Le projet "Dice" est une application construite avec Spring Boot permettant de s
 - **Base de données** : H2 
 - **Documentation API** : Swagger (bonus)
 - **Simplification de code** : Lombok (bonus)
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+# Dice Project
+
+Réalisation de 3 endpoints pour l'API :
+- **`GET /rollDice`** : Lancer un seul dé.
+- **`GET /rollDices/{X}`** : Lancer X dés (X étant un paramètre dynamique).
+- **`GET /diceLogs`** : Retourne tous les enregistrements de `DiceRollLog` au format JSON.
+
+Installation de Swagger pour la documentation de l'API => Problème : J'ai tout fait mais je n'arrive pas accèder à la documentation sur **`http://localhost:8081/swagger-ui.html`**.
